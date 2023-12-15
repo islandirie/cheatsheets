@@ -1,1 +1,2 @@
 ## A Collection of all my Development related cheatsheets.
+Developer related cheatsheets I've created to help me remember the things I've learned and a quick way to reference when I've forgotten. All written in Markdown
