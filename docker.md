@@ -140,3 +140,96 @@ docker info
 ```bash
 docker system prune -a
 ```
+
+### PART 2
+
+# Docker Cheatsheet
+
+## 1. Images
+
+- **Pull an Image:**
+  `docker pull image_name`
+
+- **List Images:**
+  `docker images`
+
+- **Remove an Image:**
+  `docker rmi image_name`
+
+## 2. Containers
+
+- **Run a Container:**
+  `docker run image_name`
+
+- **List Running Containers:**
+  `docker ps`
+
+- **List All Containers (including stopped ones):**
+  `docker ps -a`
+
+- **Stop a Running Container:**
+  `docker stop container_id`
+
+- **Remove a Container:**
+  `docker rm container_id`
+
+## 3. Build and Customize Images
+
+- **Build an Image from Dockerfile:**
+  `docker build -t image_name .`
+
+- **Build an Image with a Tag:**
+  `docker build -t image_name:tag .`
+
+## 4. Volumes
+
+- **Create a Volume:**
+  `docker volume create volume_name`
+
+- **List Volumes:**
+  `docker volume ls`
+
+- **Remove a Volume:**
+  `docker volume rm volume_name`
+
+## 5. Networks
+
+- **Create a Network:**
+  `docker network create network_name`
+
+- **List Networks:**
+  `docker network ls`
+
+- **Remove a Network:**
+  `docker network rm network_name`
+
+## 6. Docker Compose
+
+- **Run Docker Compose:**
+  `docker-compose up`
+
+- **Run Docker Compose in Detached Mode:**
+  `docker-compose up -d`
+
+- **Stop Docker Compose:**
+  `docker-compose down`
+
+## 7. Logs and Exec
+
+- **View Container Logs:**
+  `docker logs container_id`
+
+- **Execute a Command in a Running Container:**
+  `docker exec -it container_id command`
+
+## 8. Miscellaneous
+
+- **Docker Version:**
+  `docker version`
+
+- **Docker Info:**
+  `docker info`
+
+- **Cleanup (Remove All Containers and Images):**
+  `docker system prune -a`
+
