@@ -1,4 +1,11 @@
 # Vim Cheatsheet for Basic Editing
+# Notes
+- In command line (mac) type VimTutor to learn Vim.
+- format for a change command is:
+    operator \[number\] command
+- operator - what to do, such as d for delete
+- \[number\] - count to repeat motion
+- motion - moves over the text
 
 ## Moving Around:
 - `h` - Move left
@@ -16,8 +23,8 @@
 ## Editing:
 - `i` - Enter insert mode before the cursor
 - `I` - Enter insert mode at the beginning of the line
-- `a` - Enter insert mode after the cursor
-- `A` - Enter insert mode at the end of the line
+- `a` - Enter append mode after the cursor
+- `A` - Enter Append mode at the end of the line
 - `o` - Open a new line below the current line and enter insert mode
 - `O` - Open a new line above the current line and enter insert mode
 - `dd` - Delete the current line
