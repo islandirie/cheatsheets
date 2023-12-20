@@ -1,5 +1,5 @@
 # Vim Cheatsheet for Basic Editing
-# Notes
+### Notes
 - In command line (mac) type VimTutor to learn Vim.
 - format for a change command is:
     operator \[number\] command
