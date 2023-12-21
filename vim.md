@@ -41,7 +41,7 @@
 - `:w` - Save changes
 - `:q` - Quit (close) Vim
 - `:wq` - Save changes and quit
-- `:q!` - Quit without saving (force quit)
+- `:q!`(#) - Quit without saving (force quit)
 
 ## Searching and Replacing:
 - `/pattern` - Search for a pattern
