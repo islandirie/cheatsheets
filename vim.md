@@ -1,6 +1,7 @@
 # Vim Cheatsheet for Basic Editing
 ### Notes
 - In command line (mac) type VimTutor to learn Vim.
+    - Learning Checkpoint, Lesson 4.1: CURSOR LOCATION AND FILE STATUS
 - format for a change command is:
     operator \[number\] command
 - operator - what to do, such as d for delete
@@ -13,6 +14,7 @@
 - `k` - Move up
 - `l` - Move right
 - `w` - Move to the beginning of the next word
+- `e` - Move to the end of the next word
 - `b` - Move to the beginning of the previous word
 - `0` - Move to the beginning of the line
 - `$` - Move to the end of the line
@@ -30,6 +32,9 @@
 - `dd` - Delete the current line
 - `dw` - Delete from the cursor to the beginning of the next word
 - `cw` - Change from the cursor to the beginning of the next word
+- `ce` - Change from the cursor to the end of the word
+- `cc` - Change the whole line
+- `r[x]` - Replace character with any typed character
 - `x` - Delete the character under the cursor
 
 ## Exiting and Saving:
