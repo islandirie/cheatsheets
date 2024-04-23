@@ -13,28 +13,28 @@
 - Show tables: `SHOW TABLES;`
 - Describe table: `DESCRIBE <table_name>;`
 - Create table: 
-  '''
+  '
   CREATE TABLE <table_name> (
       column1 datatype constraints,
       column2 datatype constraints,
       ...
   );
-  '''
+  '
 - Drop table: `DROP TABLE <table_name>;`
 
 ## Data Manipulation
 - Insert data into table:
-  '''
+  '
   INSERT INTO <table_name> (column1, column2, ...)
   VALUES (value1, value2, ...);
-  '''
+  '
 - Select data from table: `SELECT * FROM <table_name>;`
 - Update data in table:
-  '''
+  '
   UPDATE <table_name>
   SET column1 = value1, column2 = value2, ...
   WHERE condition;
-  '''
+  '
 - Delete data from table: `DELETE FROM <table_name> WHERE condition;`
 
 ## User and Privilege Management
