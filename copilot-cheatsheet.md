@@ -107,3 +107,10 @@
   "github.copilot.statusBar.enabled": true // set to false to hide
 }
 ```
+
+- Generate server side code with express.js
+- scan for vulnerabilites across entire codebase
+- create quiz based on entire codebase, can select specific files, ignore readme.md, test, etc. Or just to learn the codebase of a git repo.
+- dummy data, list of 20 employees with whatever keys in valid json format
+- @vscode cam change to dark theme, ai for settings.json
+- when creating comments use pseudocode instead of prompt like requests
