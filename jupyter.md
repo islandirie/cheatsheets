@@ -1,243 +1,179 @@
-# Jupyter Lab - Essential Cheat Sheet
+# 🚀 Jupyter Notebook Cheatsheet
 
-## 🎯 Two Modes
-- **Command Mode** (blue border): Navigate and manipulate notebook structure
-- **Edit Mode** (green border): Edit cell content
+## 🎯 Essential Modes
+| Mode | Border Color | Description |
+|------|-------------|-------------|
+| **Command Mode** | Blue | Navigate & manipulate cells |
+| **Edit Mode** | Green | Edit cell content |
+
+**Switch modes:**
+- `Esc` → Command mode
+- `Enter` → Edit mode
 
 ---
 
-## ⌨️ Most Important Shortcuts
+## ⚡ Must-Know Shortcuts
 
-### Mode Switching
-| Shortcut | Action |
-|----------|--------|
-| `Enter` | Enter Edit mode |
-| `Esc` | Enter Command mode |
-
-### Essential Navigation
-| Shortcut | Action |
-|----------|--------|
-| `↑/↓` | Navigate cells (Command mode) |
-| `Shift + Enter` | Run cell and move to next |
-| `Ctrl + Enter` | Run cell and stay in place |
-| `Alt + Enter` | Run cell and insert new below |
-
-### Cell Operations (Command Mode)
-| Shortcut | Action |
-|----------|--------|
-| `A` | Insert cell above |
-| `B` | Insert cell below |
-| `DD` | Delete cell (press D twice) |
-| `Z` | Undo cell deletion |
-| `C` | Copy cell |
-| `V` | Paste cell below |
-| `X` | Cut cell |
-
-### Cell Types (Command Mode)
-| Shortcut | Action |
-|----------|--------|
-| `Y` | Change to Code cell |
-| `M` | Change to Markdown cell |
-| `R` | Change to Raw cell |
-
-### Running Code
+### ▶️ Running Cells
 | Shortcut | Action |
 |----------|--------|
 | `Shift + Enter` | Run cell, select next |
-| `Ctrl + Enter` | Run cell |
-| `Alt + Enter` | Run cell, insert below |
-| `Ctrl + Shift + Enter` | Run all cells |
+| `Ctrl + Enter` | Run cell, stay selected |
+| `Alt + Enter` | Run cell, insert new below |
 
----
-
-## 🔧 File and Notebook Operations
-
-### File Menu Shortcuts
+### 📝 Cell Creation & Deletion
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl + S` | Save notebook |
-| `Ctrl + Shift + S` | Save As |
-| `Ctrl + O` | Open file |
-| `Ctrl + N` | New notebook |
+| `A` | Insert cell **above** |
+| `B` | Insert cell **below** |
+| `DD` | **Delete** cell (press D twice) |
+| `Z` | **Undo** delete |
 
-### Kernel Operations
+### 🔄 Cell Types
 | Shortcut | Action |
 |----------|--------|
-| `0 0` | Restart kernel (press 0 twice) |
-| `I I` | Interrupt kernel (press I twice) |
+| `Y` | Change to **Code** |
+| `M` | Change to **Markdown** |
+| `R` | Change to **Raw** |
 
----
-
-## ✏️ Edit Mode Shortcuts
-
-### Basic Editing
+### 📋 Copy/Paste/Move
 | Shortcut | Action |
 |----------|--------|
-| `Tab` | Code completion or indent |
-| `Shift + Tab` | Show function tooltip |
-| `Ctrl + ]` | Indent |
-| `Ctrl + [` | Dedent |
-| `Ctrl + A` | Select all |
-| `Ctrl + Z` | Undo |
-| `Ctrl + Y` | Redo |
+| `C` | **Copy** cell |
+| `X` | **Cut** cell |
+| `V` | **Paste** cell below |
+| `Shift + V` | **Paste** cell above |
 
-### Advanced Editing
+### ⬆️⬇️ Moving Cells
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl + /` | Comment/uncomment |
-| `Ctrl + D` | Delete line |
-| `Ctrl + Shift + K` | Delete line |
-| `Alt + Click` | Multi-cursor |
-| `Ctrl + F` | Find and replace |
+| `Ctrl + Shift + ↑` | Move cell(s) **up** |
+| `Ctrl + Shift + ↓` | Move cell(s) **down** |
 
 ---
 
-## 🎨 Markdown Cells Quick Reference
+## 🎯 Navigation Shortcuts
 
-### Headers
-```markdown
-# H1 Header
-## H2 Header
-### H3 Header
-#### H4 Header
-```
-
-### Text Formatting
-```markdown
-**Bold text**
-*Italic text*
-***Bold and italic***
-`inline code`
-~~Strikethrough~~
-```
-
-### Lists
-```markdown
-- Bullet point
-- Another point
-  - Nested point
-
-1. Numbered list
-2. Second item
-   1. Nested numbered
-```
-
-### Code Blocks
-````markdown
-```python
-def hello():
-    print("Hello World!")
-```
-````
-
-### Links and Images
-```markdown
-[Link text](https://example.com)
-![Alt text](image.jpg)
-```
-
-### Math (LaTeX)
-```markdown
-Inline math: $E = mc^2$
-Block math: $$\int_0^\infty e^{-x^2} dx$$
-```
-
----
-
-## 🎯 Command Palette & Advanced
-
-### Command Palette
+### 🏃 Quick Movement
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl + Shift + C` | Open command palette |
+| `↑` / `↓` | Move between cells |
+| `Ctrl + Home` | Go to **first** cell |
+| `Ctrl + End` | Go to **last** cell |
+| `Shift + ↑/↓` | **Select multiple** cells |
 
-### Common Commands
-- Type in command palette:
-  - "split" - Split cell at cursor
-  - "merge" - Merge selected cells
-  - "clear" - Clear cell output
-  - "restart" - Restart kernel
-  - "export" - Export notebook
+### 🔍 Finding & Replacing
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + F` | **Find** in current cell |
+| `Ctrl + H` | **Find & Replace** |
+| `Ctrl + G` | Go to line number |
 
-### Useful Magic Commands
+---
 
-#### Cell Magics (start with %%)
+## 💻 Code Editing (Edit Mode)
+
+### ✨ Smart Editing
+| Shortcut | Action |
+|----------|--------|
+| `Tab` | **Code completion** / Indent |
+| `Shift + Tab` | **Tooltip/Help** |
+| `Ctrl + ]` | **Indent** |
+| `Ctrl + [` | **Unindent** |
+| `Ctrl + /` | **Comment/Uncomment** |
+| `Ctrl + D` | **Delete line** |
+
+### 🎯 Advanced Editing
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + A` | Select **all** in cell |
+| `Ctrl + Z` | **Undo** |
+| `Ctrl + Y` | **Redo** |
+| `Ctrl + Shift + -` | **Split** cell at cursor |
+
+---
+
+## 🛠️ Kernel & System
+
+### 🔄 Kernel Control
+| Shortcut | Action |
+|----------|--------|
+| `00` | **Restart** kernel (press 0 twice) |
+| `Ctrl + C` | **Interrupt** kernel |
+| `Shift + L` | Toggle **line numbers** |
+| `Shift + O` | Toggle **output scrolling** |
+
+### 💾 Save & Export
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + S` | **Save** notebook |
+| `Ctrl + Shift + S` | **Save As** |
+
+---
+
+## 🧙 Advanced Tips
+
+### 🎯 Multi-Selection
+- `Ctrl + Click` → Select multiple non-adjacent cells
+- `Shift + Click` → Select range of cells
+- Selected cells can be moved/deleted together
+
+### 🚀 Magic Commands
 ```python
-%%time          # Time cell execution
-%%timeit        # Benchmark cell multiple times
-%%writefile     # Write cell content to file
-%%bash          # Run bash commands
-%%html          # Render as HTML
+%time          # Time single execution
+%%time         # Time entire cell
+%who           # Show variables
+%history       # Show command history
+%matplotlib inline  # Inline plots
+!ls            # Run shell commands
 ```
 
-#### Line Magics (start with %)
+### 🎨 Markdown Quick Reference
+```markdown
+# Header 1
+## Header 2
+**bold** *italic*
+`code`
+- bullet points
+1. numbered lists
+[link](url)
+![image](path)
+```
+
+### 🔧 Useful Cell Magics
 ```python
-%pwd            # Current directory
-%ls             # List files
-%cd             # Change directory
-%who            # List variables
-%whos           # List variables with details
-%matplotlib inline  # Enable inline plots
-%load           # Load code from file
-%run            # Run Python script
-%reset          # Clear all variables
+%%bash         # Run cell as bash
+%%html         # Render as HTML  
+%%javascript   # Run JavaScript
+%%latex        # Render LaTeX
+%%writefile filename.py  # Save cell to file
 ```
 
 ---
 
-## 🚀 Pro Tips
+## 🆘 Emergency Shortcuts
 
-### Productivity Hacks
-1. **Quick Help**: `Shift + Tab` shows function documentation
-2. **Autocomplete**: `Tab` for code completion
-3. **Multi-line Selection**: Hold `Alt` and click to place multiple cursors
-4. **Cell Folding**: Click the blue bar on the left of cells
-5. **Output Scrolling**: Right-click output → "Enable Scrolling for Outputs"
-
-### Variable Inspection
-```python
-# Quick variable inspection
-?variable_name          # Basic info
-??variable_name         # Source code
-variable_name?          # Same as ?variable_name
-```
-
-### Debugging
-```python
-%debug                  # Debug after exception
-%pdb                    # Auto-debug on exception
-import pdb; pdb.set_trace()  # Breakpoint
-```
-
-### Memory & Performance
-```python
-%memit expression       # Memory usage
-%lprun -f func func()   # Line profiler
-%load_ext memory_profiler  # Load memory profiler
-```
+| Problem | Solution |
+|---------|----------|
+| **Stuck in long execution** | `Ctrl + C` (interrupt) |
+| **Notebook frozen** | `00` (restart kernel) |
+| **Accidentally deleted cell** | `Z` (undo) |
+| **Lost in large notebook** | `Ctrl + Home/End` |
+| **Can't see output** | `Shift + O` (toggle scroll) |
 
 ---
 
-## 💡 Quick Reference Summary
+## 💡 Pro Productivity Tips
 
-**Most Used Daily:**
-- `Shift + Enter` - Run and advance
-- `B` - New cell below
-- `DD` - Delete cell
-- `M/Y` - Markdown/Code mode
-- `Ctrl + S` - Save
+1. **Use `Shift + Tab`** for instant documentation
+2. **Master `A` and `B`** for quick cell insertion
+3. **`DD` is faster** than clicking delete
+4. **Select multiple cells** for batch operations
+5. **Toggle line numbers** with `Shift + L` for debugging
+6. **Use magic commands** for system operations
+7. **`Ctrl + Shift + -`** to split long cells
+8. **Learn the `%%` cell magics** for special cell types
 
-**For Efficiency:**
-- `Tab` - Autocomplete
-- `Shift + Tab` - Documentation
-- `Ctrl + Shift + C` - Command palette
-- `%%time` - Time execution
-- `%who` - List variables
+---
 
-**Remember First**:
-Shift+Enter (run and advance)
-B (new cell Below)
-DD (delete cell)
-M/Y (switch to Markdown/Code)
-Tab (autocomplete)
-Shift + Tab (show documentation)
+*💡 Remember: Most shortcuts work in **Command Mode** (blue border). Press `Esc` first!*
